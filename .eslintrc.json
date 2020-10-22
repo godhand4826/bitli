@@ -1,0 +1,32 @@
+{
+    "env": {
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+        "indent":["warn",4],
+        "quotes":["warn","single"],
+        "semi":["warn","never"],
+        "no-unused-vars":["error",{"args": "none"}],
+        "arrow-spacing":["warn"],
+        "comma-spacing":["warn"],
+        "no-multi-spaces":["warn"],
+        "space-infix-ops": ["warn"],
+        "object-curly-newline":["warn",{"multiline":true}],
+        "object-curly-spacing": ["error", "always"],
+        "key-spacing":["warn"],
+        "prefer-arrow-callback":["warn"],
+        "func-call-spacing":["warn", "never"],
+        "keyword-spacing":["warn"],
+        "object-curly-newline":["error",{"multiline":true}]
+    }
+}
