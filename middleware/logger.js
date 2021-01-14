@@ -3,7 +3,7 @@ const koaPino = require('koa-pino-logger')
 const pino = require('pino')
 
 const options = {
-    prettyPrint: config.DEBUG,
+    prettyPrint: config.DEBUG ? true : false,
     level: config.DEBUG ? 'debug' : 'info'
 }
 
